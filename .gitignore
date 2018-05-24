@@ -1,0 +1,21 @@
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+.rvmrc
+.rspec
+.DS_Store
+Gemfile.lock # gem projects only!
+InstalledFiles
+_yardoc
+doc/
+coverage
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+spec/tmp
+test/tmp
+test/version_tmp
+tmp
