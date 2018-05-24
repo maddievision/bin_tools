@@ -14,7 +14,7 @@ class BinTools::Writer
   end
 
   def self.open fn, &block
-    f = self.class.new fn
+    f = self.new fn
     block.call f
     f.close
   end

@@ -18,7 +18,7 @@ class BinTools::Reader
 
   def self.from_file fn
     data = File.open(fn, "rb") { |io| io.read }
-    self.class.new data
+    self.new data
   end
 
   def set_base pos

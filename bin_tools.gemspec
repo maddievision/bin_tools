@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'bin_tools'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2018-05-23'
   s.summary     = "Binary I/O library for Ruby"
   s.description = "Binary I/O library for Ruby that is similar to using the C# Binary Reader and Writer."
